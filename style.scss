@@ -1,0 +1,230 @@
+head{
+.head_div{
+width: 95%;
+ 
+span{
+    background-color:rgb(230, 190, 89)!important ;
+}
+
+}
+    // .fa-magnifying-glass{
+    //      color: white!important;
+    // }
+    
+      .fa-cart{
+        color: rgb(230, 190, 89)!important;
+        font-size: 30px!important;
+    
+    }
+   
+}
+
+
+header{
+    
+    .daraz_bg{
+
+         background-image: url("./img/daraz.png");
+    height: 45vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    }
+.daraz_peragraph{
+
+     height: 30vh;
+    width:100%!important;
+  img{
+
+    width: 90%;
+  }
+   
+   
+}
+button{
+    background-color: orangered!important;
+    font-size: 20px!important;
+}
+
+}
+
+.first_section{
+    .daraz_image img{
+        height:200px!important;
+    }
+    button{
+        background-color: orangered!important;
+        font-size: 20px!important;
+    }
+    .daraz-image2 img{
+        height:200px!important;
+    }
+}
+
+.second_section{
+
+div{
+    // margin-left: 5%;
+    p{
+        width: 80%;
+    }
+}
+
+.third_section{
+div{
+    width: 80%!important;
+    text-align: center!important;
+}
+
+}
+
+}
+
+.def_color{
+    color: rgb(199, 122, 21)!important;
+}
+
+
+.fifth_section{
+
+background-color: rgb(5, 28, 52);
+
+.fifth_div{
+    width: 85%!important;
+
+  h1{
+    color: white;
+}
+         li{
+       
+        list-style-type: none;
+        a{
+            color: white;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    } 
+ 
+.scanner img{
+height: 50%!important;
+} 
+    
+.daraz_logo{
+    height: 100px!important;
+    width: 150px!important;
+}
+      
+}
+
+    }
+ 
+
+
+footer{
+
+section{
+    width: 95%;
+
+   .payment img{
+
+        height:70px!important;
+        width:70px!important;
+       
+    }
+    .country img{
+        height:40px!important;
+        width:35px!important;
+    }
+    .logo img{
+        height:35px!important;
+        width:45px!important;
+    }
+    .logo i{
+        font-size: 30px;
+    }
+    .pci{
+        height:95px!important;
+        width:165px!important;
+    }
+
+}
+
+    
+}
+
+
+
+@media screen and (max-width:1023px){
+    header{
+        .daraz_peragraph img{
+            width: 100%;
+            height: 30vh;
+           
+        }}
+        .scanner img{
+            height: 30%!important;
+            } 
+    .fifth_section{
+    //    height: 100vh!important;
+        .fifth_div{
+            width: 100%!important;
+       
+        .scanner img{
+            padding: 20px!important;
+        height: 40%!important;
+        } 
+            div{
+            .daraz_logo{
+            // padding: 20px!important;
+            height: 120px!important;
+            width: 150px!important;
+            margin-left: 0!important;
+        }    
+        h1{
+            font-size: 20px;
+            margin-left: 0!important;
+        }
+            }
+        
+              
+        }
+        
+            
+            }
+
+            footer{
+justify-content: center;
+display: grid;
+
+                section{
+                    width: 95%;
+                
+                div{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 30px!important;
+                }    
+                   
+                
+                }
+                
+                    
+                }
+
+}
+
+
+@media screen and (max-width:576px) {
+
+    .fifth_section{
+        height: 98vh!important;}
+}
+@media screen and (max-width:400px) {
+
+    .fifth_section{
+        height: 88vh!important;
+    padding: 40px!important;
+    }
+}

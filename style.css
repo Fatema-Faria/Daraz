@@ -1,0 +1,151 @@
+head .head_div {
+  width: 95%;
+}
+head .head_div span {
+  background-color: rgb(230, 190, 89) !important;
+}
+head .fa-cart {
+  color: rgb(230, 190, 89) !important;
+  font-size: 30px !important;
+}
+
+header .daraz_bg {
+  background-image: url("./img/daraz.png");
+  height: 45vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+header .daraz_peragraph {
+  height: 30vh;
+  width: 100% !important;
+}
+header .daraz_peragraph img {
+  width: 90%;
+}
+header button {
+  background-color: orangered !important;
+  font-size: 20px !important;
+}
+
+.first_section .daraz_image img {
+  height: 200px !important;
+}
+.first_section button {
+  background-color: orangered !important;
+  font-size: 20px !important;
+}
+.first_section .daraz-image2 img {
+  height: 200px !important;
+}
+
+.second_section div p {
+  width: 80%;
+}
+.second_section .third_section div {
+  width: 80% !important;
+  text-align: center !important;
+}
+
+.def_color {
+  color: rgb(199, 122, 21) !important;
+}
+
+.fifth_section {
+  background-color: rgb(5, 28, 52);
+}
+.fifth_section .fifth_div {
+  width: 85% !important;
+}
+.fifth_section .fifth_div h1 {
+  color: white;
+}
+.fifth_section .fifth_div li {
+  list-style-type: none;
+}
+.fifth_section .fifth_div li a {
+  color: white;
+  text-decoration: none;
+}
+.fifth_section .fifth_div li a:hover {
+  text-decoration: underline;
+}
+.fifth_section .fifth_div .scanner img {
+  height: 50% !important;
+}
+.fifth_section .fifth_div .daraz_logo {
+  height: 100px !important;
+  width: 150px !important;
+}
+
+footer section {
+  width: 95%;
+}
+footer section .payment img {
+  height: 70px !important;
+  width: 70px !important;
+}
+footer section .country img {
+  height: 40px !important;
+  width: 35px !important;
+}
+footer section .logo img {
+  height: 35px !important;
+  width: 45px !important;
+}
+footer section .logo i {
+  font-size: 30px;
+}
+footer section .pci {
+  height: 95px !important;
+  width: 165px !important;
+}
+
+@media screen and (max-width: 1023px) {
+  header .daraz_peragraph img {
+    width: 100%;
+    height: 30vh;
+  }
+  .scanner img {
+    height: 30% !important;
+  }
+  .fifth_section .fifth_div {
+    width: 100% !important;
+  }
+  .fifth_section .fifth_div .scanner img {
+    padding: 20px !important;
+    height: 40% !important;
+  }
+  .fifth_section .fifth_div div .daraz_logo {
+    height: 120px !important;
+    width: 150px !important;
+    margin-left: 0 !important;
+  }
+  .fifth_section .fifth_div div h1 {
+    font-size: 20px;
+    margin-left: 0 !important;
+  }
+  footer {
+    justify-content: center;
+    display: grid;
+  }
+  footer section {
+    width: 95%;
+  }
+  footer section div {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .fifth_section {
+    height: 98vh !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .fifth_section {
+    height: 88vh !important;
+    padding: 40px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
